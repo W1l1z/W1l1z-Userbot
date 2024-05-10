@@ -31,9 +31,9 @@ if __name__ == "__main__":
 
     install_type = sys.argv[1] if len(sys.argv) > 1 else "3"
     if install_type == "1":
-        restart = "pm2 restart w1l1z"
+        restart = "pm2 restart dragon"
     elif install_type == "2":
-        restart = "sudo systemctl restart w1l1z"
+        restart = "sudo systemctl restart dragon"
     else:
         restart = "cd W1l1z-Userbot/ && python main.py"
 
