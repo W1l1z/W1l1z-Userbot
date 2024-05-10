@@ -10,7 +10,7 @@ __all__ = [
     "requirements_list",
     "python_version",
     "prefix",
-    "gitrepo",,
+    "gitrepo",
 ]
 
 
