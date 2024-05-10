@@ -10,8 +10,7 @@ __all__ = [
     "requirements_list",
     "python_version",
     "prefix",
-    "gitrepo",
-    "userbot_version",
+    "gitrepo",,
 ]
 
 
@@ -34,5 +33,3 @@ except git.exc.InvalidGitRepositoryError:
     repo.heads.master.set_tracking_branch(origin.refs.master)
     repo.heads.master.checkout(True)
     gitrepo = git.Repo(".")
-
-userbot_version = f"4.0.{len(commits_since_tag)}"
