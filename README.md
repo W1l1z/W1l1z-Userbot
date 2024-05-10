@@ -2,7 +2,7 @@
         <img src="https://us.123rf.com/450wm/bonumopus/bonumopus2001/bonumopus200100187/137084300-python-code-language-sign-programming-coding-and-developing-concept-wireframe-low-poly-mesh-vector.jpg" width="500" alt="W1l1z-Userbot">
     </a>
     <br>
-    <b>Dragon-Userbot</b>
+    <b>W1l1z-Userbot</b>
     <br>
     <b>Telegram userbot with the easiest installation</b>
     <br>
@@ -38,7 +38,7 @@ responsible for any damage to chat rooms caused by using this userbot.</p>
 </code></pre>
 
 <h2>macOS [<a href='https://brew.sh'>brew</a>]</h2>
-<pre><code>brew install git && git clone https://github.com/Dragon-Userbot/Dragon-Userbot.git && cd Dragon-Userbot && brew install python@3.8 && pip3 install --upgrade pip && pip3 install wheel && brew install ffmpeg && pip3 install -r requirements.txt && pip3 install -U 'pytgcalls[pyrogram]' && echo Enter your db_url: && read uservar && python3 install.py $uservar
+<pre><code>brew install git && git clone https://github.com/W1l1z/W1l1z-Userbot.git && cd W1l1z-Userbot && brew install python@3.8 && pip3 install --upgrade pip && pip3 install wheel && brew install ffmpeg && pip3 install -r requirements.txt && pip3 install -U 'pytgcalls[pyrogram]' && echo Enter your db_url: && read uservar && python3 install.py $uservar
 </code></pre>
 
 <p>Next enter mongo_db_url (<a href='https://telegra.ph/How-to-get-Mongodb-URL-and-login-in-telegram-08-01'>How to get Mongodb_URL and login in telegram</a>)</p>
