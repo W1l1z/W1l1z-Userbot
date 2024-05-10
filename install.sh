@@ -1,6 +1,6 @@
 #!/bin/bash
 if command -v termux-setup-storage; then
-  echo For termux, please use https://raw.githubusercontent.com/W1l1z/W1l1z-Userbot/main/termux-install.sh
+  echo For termux, please use https://raw.githubusercontent.com/W1l1z-Userbot/W1l1z-Userbot/main/termux-install.sh
   exit 1
 fi
 
