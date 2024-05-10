@@ -1,5 +1,5 @@
 <p align="center">
-        <img src="https://photos.fife.usercontent.google.com/pw/AP1GczN0euqm8VAFOS_IPcghQpUbg1atzbyc7ILh0EXYSq00-aBDwE53FzeY=w913-h913-s-no-gm?authuser=0" width="500" alt="W1l1z-Userbot">
+        <img src="https://img.freepik.com/premium-photo/ai-generated-amethystine-python-snake-neon-color-illustration-photo_1122970-4.jpg" width="500" alt="W1l1z-Userbot">
     </a>
     <br>
     <b>W1l1z-Userbot</b>
