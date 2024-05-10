@@ -34,7 +34,7 @@ responsible for any damage to chat rooms caused by using this userbot.</p>
 
 <h2>Linux, Termux (use <a href='https://f-droid.org/en/packages/com.termux/'>f-droid</a> version) and Windows [only wsl]</h2>
 
-<pre><code>apt-get upgrade -y && apt-get update && apt install python3-pip && apt install git && git clone https://github.com/W1l1z/W1l1z-Userbot.git && pip3 install --upgrade pip && cd W1l1z-Userbot/ && bash install.sh
+<pre><code>apt-get upgrade -y && apt-get update && apt install python3-pip && apt install git && git clone https://github.com/W1l1z/W1l1z-Userbot.git && pip3 install --upgrade pip && cd W1l1z-Userbot/ && pip install pyrogram && pip install environs && python3 install.py
 </code></pre>
 
 <h2>macOS [<a href='https://brew.sh'>brew</a>]</h2>
