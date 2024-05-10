@@ -6,7 +6,7 @@
     <br>
     <b>Telegram userbot with the easiest installation</b>
     <br>
-    <a href='https://github.com/W1l1z/W1l1z-Userbot#releases'>
+    <a href='https://github.com/W1l1z-Userbot/W1l1z-Userbot#releases'>
         Releases
     </a>
     •
@@ -34,11 +34,11 @@ responsible for any damage to chat rooms caused by using this userbot.</p>
 
 <h2>Linux, Termux (use <a href='https://f-droid.org/en/packages/com.termux/'>f-droid</a> version) and Windows [only wsl]</h2>
 
-<pre><code>apt-get upgrade -y && apt-get update && apt install python3-pip && apt install git && git clone https://github.com/W1l1z/W1l1z-Userbot.git && pip3 install --upgrade pip && cd W1l1z-Userbot/ && pip install pyrogram && pip install environs && pip3 install -r requirements.txt && bash install.sh
+<pre><code>apt-get upgrade -y && apt-get update && apt install python3-pip && apt install git && git clone https://github.com/W1l1z-Userbot/W1l1z-Userbot.git && pip3 install --upgrade pip && cd W1l1z-Userbot/ && pip install pyrogram && pip install environs && pip3 install -r requirements.txt && bash install.sh
 </code></pre>
 
 <h2>macOS [<a href='https://brew.sh'>brew</a>]</h2>
-<pre><code>brew install git && git clone https://github.com/W1l1z/W1l1z-Userbot.git && cd W1l1z-Userbot && brew install python@3.8 && pip3 install --upgrade pip && pip3 install wheel && brew install ffmpeg && pip3 install -r requirements.txt && pip3 install -U 'pytgcalls[pyrogram]' && echo Enter your db_url: && read uservar && python3 install.py $uservar
+<pre><code>brew install git && git clone https://github.com/W1l1z-Userbot/W1l1z-Userbot.git && cd W1l1z-Userbot && brew install python@3.8 && pip3 install --upgrade pip && pip3 install wheel && brew install ffmpeg && pip3 install -r requirements.txt && pip3 install -U 'pytgcalls[pyrogram]' && echo Enter your db_url: && read uservar && python3 install.py $uservar
 </code></pre>
 
 <p>Next enter mongo_db_url (<a href='https://telegra.ph/How-to-get-Mongodb-URL-and-login-in-telegram-08-01'>How to get Mongodb_URL and login in telegram</a>)</p>
