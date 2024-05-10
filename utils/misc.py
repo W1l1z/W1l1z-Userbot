@@ -11,6 +11,7 @@ __all__ = [
     "python_version",
     "prefix",
     "gitrepo",
+    "userbot_version",
 ]
 
 
@@ -26,10 +27,13 @@ try:
 except git.exc.InvalidGitRepositoryError:
     repo = git.Repo.init()
     origin = repo.create_remote(
-        "origin", "https://github.com/W1l1z/W1l1z-Userbot"
+        "origin", "https://github.com/Dragon-Userbot/Dragon-Userbot"
     )
     origin.fetch()
     repo.create_head("master", origin.refs.master)
     repo.heads.master.set_tracking_branch(origin.refs.master)
     repo.heads.master.checkout(True)
     gitrepo = git.Repo(".")
+
+commits_since_tag = list(gitrepo.iter_commits(f"{gitrepo.tags[-1].name}..HEAD"))
+userbot_version = f"4.0.{len(commits_since_tag)}"
