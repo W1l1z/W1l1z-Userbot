@@ -1,6 +1,6 @@
 #!/bin/bash
 if command -v termux-setup-storage; then
-  echo For termux, please use https://raw.githubusercontent.com/W1l1z-Userbot/W1l1z-Userbot/main/termux-install.sh
+  echo For termux, please use https://raw.githubusercontent.com/W1l1z/W1l1z-Userbot/main/termux-install.sh
   exit 1
 fi
 
@@ -20,7 +20,7 @@ if [[ -d "W1l1z-Userbot" ]]; then
 elif [[ -f ".env.dist" ]] && [[ -f "main.py" ]] && [[ -d "modules" ]]; then
   :
 else
-  git clone https://github.com/W1l1z-Userbot/W1l1z-Userbot || exit 2
+  git clone https://github.com/W1l1z/W1l1z-Userbot || exit 2
   cd W1l1z-Userbot || exit 2
 fi
 
