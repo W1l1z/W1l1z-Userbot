@@ -115,20 +115,20 @@ case $install_type in
       su -c "pm2 startup" $SUDO_USER
       env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u $SUDO_USER --hp /home/$SUDO_USER
     fi
-    su -c "pm2 start main.py --name w1l1z --interpreter python3" $SUDO_USER
+    su -c "pm2 start main.py --name dragon --interpreter python3" $SUDO_USER
     su -c "pm2 save" $SUDO_USER
 
     echo
     echo "============================"
     echo "Great! W1l1z-Userbot installed successfully and running now!"
     echo "Installation type: PM2"
-    echo "Start with: \"pm2 start w1l1z\""
-    echo "Stop with: \"pm2 stop w1l1z\""
-    echo "Process name: w1l1z"
+    echo "Start with: \"pm2 start dragon\""
+    echo "Stop with: \"pm2 stop dragon\""
+    echo "Process name: dragon"
     echo "============================"
     ;;
   2)
-    cat > /etc/systemd/system/w1l1z.service << EOL
+    cat > /etc/systemd/system/dragon.service << EOL
 [Unit]
 Description=Service for W1l1z Userbot
 
@@ -144,15 +144,15 @@ Group=${SUDO_USER}
 WantedBy=multi-user.target
 EOL
     systemctl daemon-reload
-    systemctl start w1l1z
-    systemctl enable w1l1z
+    systemctl start dragon
+    systemctl enable dragon
 
     echo
     echo "============================"
     echo "Great! W1l1z-Userbot installed successfully and running now!"
     echo "Installation type: Systemd service"
-    echo "Start with: \"sudo systemctl start w1l1z\""
-    echo "Stop with: \"sudo systemctl stop w1l1z\""
+    echo "Start with: \"sudo systemctl start dragon\""
+    echo "Stop with: \"sudo systemctl stop dragon\""
     echo "============================"
     ;;
   *)
