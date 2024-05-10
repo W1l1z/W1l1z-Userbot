@@ -15,6 +15,7 @@ from pyrogram.raw.functions.account import GetAuthorizations, DeleteAccount
 
 from utils import config
 from utils.db import db
+from utils.misc import gitrepo, userbot_version
 from utils.scripts import restart, load_module
 
 script_path = os.path.dirname(os.path.realpath(__file__))
@@ -27,6 +28,8 @@ app = Client(
     api_hash=config.api_hash,
     hide_password=True,
     workdir=script_path,
+    app_version=userbot_version,
+    device_model=f"Dragon-Userbot @ {gitrepo.head.commit.hexsha[:7]}",
     system_version=platform.version() + " " + platform.machine(),
     sleep_threshold=30,
     test_mode=config.test_server,
