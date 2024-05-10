@@ -1,5 +1,5 @@
 <p align="center">
-        <img src="https://us.123rf.com/450wm/bonumopus/bonumopus2001/bonumopus200100187/137084300-python-code-language-sign-programming-coding-and-developing-concept-wireframe-low-poly-mesh-vector.jpg" width="500" alt="W1l1z-Userbot">
+        <img src="https://ibb.co/GTfbhmG" width="500" alt="W1l1z-Userbot">
     </a>
     <br>
     <b>W1l1z-Userbot</b>
