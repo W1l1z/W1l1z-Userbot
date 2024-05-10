@@ -16,7 +16,7 @@ if [[ -d "W1l1z-Userbot" ]]; then
 elif [[ -f ".env.dist" ]] && [[ -f "main.py" ]] && [[ -d "modules" ]]; then
   :
 else
-  git clone https://github.com/W1l1z/W1l1z-Userbot || exit 2
+  git clone https://github.com/W1l1z-Userbot/W1l1z-Userbot || exit 2
   cd W1l1z-Userbot || exit 2
 fi
 
