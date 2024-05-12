@@ -14,7 +14,7 @@ async def help_cmd(_, message: Message):
         msg_edited = False
         text = (
             "<b>Help for <a href=https://t.me/W1l1z</a>\n"
-            f"For more help on how to use a command, type <code>{prefix}help [module]</code>\n\n"
+            f"For more help on how to use a command, type: <code>{prefix}help [module]</code>\n\n"
             "Available Modules:\n"
         )
 
